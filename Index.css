@@ -1,4 +1,4 @@
- *{
+*{
 
 	padding: 0%;
 	margin: 0%;
@@ -17,7 +17,7 @@ scroll-behavior: smooth;
 .hero-section{
 	margin-top: 20px;
 
-	
+	width: 100%;
 	nav {
 	  justify-content: space-around;
 	  align-items: center;
@@ -88,5 +88,11 @@ padding: 20px;
 
 	} 
  }
-}
 
+
+
+ @media(max-width <= 760px){
+	.hero-section{
+	 width: 50%;
+ }
+}
