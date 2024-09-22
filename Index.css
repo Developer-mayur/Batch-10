@@ -5,12 +5,70 @@
  }
 .body{
 align-items: center;
+font-family: "Poppins", sans-serif;
+
 
 }
+html{
+scroll-behavior: smooth;
+}
 
- .hero-section{
+
+.hero-section{
+	margin-top: 20px;
+
+	
+	nav {
+	  justify-content: space-around;
+	  align-items: center;
+	  height: 17px;
+	}
+	
+	.nav-links {
+		display: flex;
+		flex-wrap: wrap;
+	  gap: 12rem;
+	  list-style: none;
+	  font-size: 1.5rem;
+	  opacity: .7;
+	}
+	
+	a {
+	  color: black;
+	  text-decoration: none;
+	  text-decoration-color: white;
+	}
+	
+	a:hover {
+	  color: grey;
+	  text-decoration: underline;
+	  text-underline-offset: 1rem;
+	  text-decoration-color: rgb(181, 181, 181);
+	}
+	
+	.logo {
+	  font-size: 2rem;
+	  opacity: .85;
+	}
+	
+	.logo:hover {
+	  cursor: default;
+	}
+
+
+	
+ 
+	   
+  	}
+	
+	
+	
+	
+	 
+	 
+
+
  /* margin-left: 200px; */
- margin-top: 50px;
  
 #carouselExampleDark{
 	
@@ -31,3 +89,4 @@ padding: 20px;
 	} 
  }
 }
+
