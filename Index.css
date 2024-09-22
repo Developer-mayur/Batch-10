@@ -1,0 +1,33 @@
+ *{
+
+	padding: 0%;
+	margin: 0%;
+ }
+.body{
+align-items: center;
+
+}
+
+ .hero-section{
+ /* margin-left: 200px; */
+ margin-top: 50px;
+ 
+#carouselExampleDark{
+	
+width: 98%;
+padding:50px ;
+margin-left: 20px;
+	
+}
+
+
+
+ .intro {
+	border: solid black;
+	h1{
+margin-left: 20%;
+padding: 20px;
+
+	} 
+ }
+}
