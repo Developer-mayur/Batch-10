@@ -116,7 +116,7 @@ body {
 }
 .top-section {
   height: 100vh;
-  background: url("https://upload.wikimedia.org/wikipedia/commons/archive/e/e1/20141028134401%21Icefields%282013.07.16%29byRyanSchroeder.jpg") no-repeat center;
+  background: url("main.jpg") no-repeat center;
   background-size: cover;
 }
 .grad-back::before {
