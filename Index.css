@@ -337,8 +337,7 @@ body {
 }
 
 
- /* new  */
- 
+  
  
 
 
@@ -363,8 +362,7 @@ body {
  
  
  
- /* STRUCTURE */
- 
+  
  .wrapper {
    display: flex;
    align-items: center;
@@ -377,6 +375,9 @@ body {
  
  #formContent {
     border-radius: 10px 10px 10px 10px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
    background: #fff;
    padding: 30px;
    width: 90%;
@@ -673,4 +674,7 @@ body {
     margin-bottom: 10px;
   }
   
+
+
+ 
 }
