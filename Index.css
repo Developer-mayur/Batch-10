@@ -380,6 +380,7 @@ body {
     flex-wrap: wrap;
    background: #fff;
    padding: 10px;
+   border: 10px solid;
    width: 90%;
    max-width: 450px;
    position: relative;
