@@ -410,8 +410,7 @@ body {
  
  
  
- /* FORM TYPOGRAPHY*/
- 
+  
  input[type=button], input[type=submit], input[type=reset]  {
    background-color: #56baed;
    border: none;
@@ -443,6 +442,9 @@ body {
    border: none;
    color: #0d0d0d;
    padding: 15px 32px;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: center;
    text-align: center;
    text-decoration: none;
    display: inline-block;
@@ -467,9 +469,7 @@ body {
  
  
  
- /* ANIMATIONS */
  
- /* Simple CSS3 Fade-in-down Animation */
  .fadeInDown {
    
    animation-name: fadeInDown;
@@ -635,40 +635,10 @@ body {
     height: 50%;
     width: 50%;
   }
-  .clients-section {
-    height: 480px;
-  }
-  .client-part {
-    height: 50%;
-    width: 50%;
-  }
-  .client-part:nth-child(1) {
-    width: 50%;
-  }
-  .service-row-half {
-    height: 50%;
-    width: 100%;
-  }
-  .testimonials-section {
-    height: 600px;
-  }
-  .test-left {
-    height: 30%;
-    width: 100%;
-  }
-  .test-right {
-    height: 70%;
-    width: 100%;
-  }
-  .test-right .space {
-    letter-spacing: 2px;
-    font-size: 14px;
-  }
-  .contact-half {
-    width: 100%;
-    margin: 0;
-    text-align: center;
-  }
+   
+   
+  
+ 
 }
 @media screen and (max-width: 700px) {
   .quad-half,
